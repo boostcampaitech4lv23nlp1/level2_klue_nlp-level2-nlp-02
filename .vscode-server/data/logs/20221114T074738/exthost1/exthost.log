@@ -1,0 +1,22 @@
+2022-11-14 07:47:40.281 [info] Extension host with pid 206 started
+2022-11-14 07:47:40.334 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-14 07:47:40.354 [error] No bundle location found for extension vscode.git-base
+2022-11-14 07:47:40.361 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-14 07:47:40.361 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-14 07:47:40.371 [error] No bundle location found for extension vscode.git
+2022-11-14 07:47:40.513 [error] No bundle location found for extension vscode.github
+2022-11-14 07:47:40.526 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 07:47:40.526 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 07:47:40.527 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 07:47:40.527 [info] Eager extensions activated
+2022-11-14 07:47:40.567 [error] No bundle location found for extension vscode.debug-auto-launch
+2022-11-14 07:47:40.567 [error] No bundle location found for extension vscode.emmet
+2022-11-14 07:47:40.567 [error] No bundle location found for extension vscode.merge-conflict
+2022-11-14 07:47:43.560 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 07:47:43.560 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 07:47:43.560 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 07:47:43.566 [error] No bundle location found for extension vscode.configuration-editing
+2022-11-14 07:47:43.566 [error] No bundle location found for extension vscode.json-language-features
+2022-11-14 07:47:43.566 [error] No bundle location found for extension vscode.typescript-language-features
+2022-11-14 07:49:31.030 [info] Extension host terminating: received terminate message from renderer
+2022-11-14 07:49:31.045 [info] Extension host with pid 206 exiting with code 0

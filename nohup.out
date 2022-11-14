@@ -1,0 +1,33 @@
+python3: can't open file 'train.py': [Errno 2] No such file or directory
+python3: can't open file 'train.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "code/train.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Downloading:   0%|          | 0.00/289 [00:00<?, ?B/s]Downloading: 100%|██████████| 289/289 [00:00<00:00, 276kB/s]
+Downloading:   0%|          | 0.00/425 [00:00<?, ?B/s]Downloading: 100%|██████████| 425/425 [00:00<00:00, 386kB/s]
+Downloading:   0%|          | 0.00/248k [00:00<?, ?B/s]Downloading:   2%|▏         | 4.10k/248k [00:00<00:11, 21.1kB/s]Downloading:  13%|█▎        | 32.8k/248k [00:00<00:07, 28.4kB/s]Downloading:  37%|███▋      | 92.2k/248k [00:00<00:04, 39.1kB/s]Downloading:  83%|████████▎ | 207k/248k [00:00<00:00, 54.2kB/s] Downloading: 100%|██████████| 248k/248k [00:00<00:00, 318kB/s] 
+Downloading:   0%|          | 0.00/495k [00:00<?, ?B/s]Downloading:   2%|▏         | 12.3k/495k [00:00<00:07, 64.8kB/s]Downloading:   6%|▌         | 28.7k/495k [00:00<00:06, 70.0kB/s]Downloading:  20%|█▉        | 98.3k/495k [00:00<00:04, 92.4kB/s]Downloading:  43%|████▎     | 213k/495k [00:00<00:02, 124kB/s]  Downloading:  86%|████████▌ | 426k/495k [00:00<00:00, 169kB/s]Downloading: 100%|██████████| 495k/495k [00:00<00:00, 519kB/s]
+Downloading:   0%|          | 0.00/125 [00:00<?, ?B/s]Downloading: 100%|██████████| 125/125 [00:00<00:00, 138kB/s]
+Traceback (most recent call last):
+  File "code/train.py", line 137, in <module>
+    main()
+  File "code/train.py", line 134, in main
+    train()
+  File "code/train.py", line 75, in train
+    train_dataset = load_data("../dataset/train/train.csv")
+  File "/opt/ml/code/load_data.py", line 36, in load_data
+    pd_dataset = pd.read_csv(dataset_dir)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '../dataset/train/train.csv'

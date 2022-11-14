@@ -1,0 +1,19 @@
+{
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "terminal.integrated.shell.windows": "C:\\Users\\user\\Git\\bin\\bash.exe",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "explorer.confirmDelete": false,
+    "remote.SSH.remotePlatform": {
+        "101.101.210.160": "linux",
+        "49.50.162.97": "linux"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    }
+}
